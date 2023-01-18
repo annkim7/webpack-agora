@@ -7,7 +7,8 @@ module.exports = {
   entry: "./src/script.js",
   output: {
     path: path.resolve(__dirname, "docs"),
-    filename: "app.bundle.js",
+    filename: "[fullhash].bundle.js",
+    clean: true,
   },
   module: {
     rules: [
