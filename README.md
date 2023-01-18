@@ -1,11 +1,11 @@
 # My Agora States
 
-[x] HTML, CSS, JavaScript로만 구성한 웹 애플리케이션을 제작합니다.
-[x] style-loader, css-loader, html-webpack-plugin을 이용하여 번들링합니다.
-[x] 제작한 번들은 github page 기능을 이용하여 배포합니다.
-[x] JavaScript 번들 파일은 하나만 생성합니다.
-[x] CSS 파일은 JavaScript 파일에 포함합니다.
-[x] JavaScript 번들 파일을 포함한 HTML 파일이 자동으로 생성되게 합니다.
+- [x] HTML, CSS, JavaScript로만 구성한 웹 애플리케이션을 제작합니다.
+- [x] style-loader, css-loader, html-webpack-plugin을 이용하여 번들링합니다.
+- [x] 제작한 번들은 github page 기능을 이용하여 배포합니다.
+- [x] JavaScript 번들 파일은 하나만 생성합니다.
+- [x] CSS 파일은 JavaScript 파일에 포함합니다.
+- [x] JavaScript 번들 파일을 포함한 HTML 파일이 자동으로 생성되게 합니다.
 
 ## Advanced Challenge
 
