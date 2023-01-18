@@ -8,6 +8,9 @@ module.exports = {
   target: ["web", "es5"],
   entry: "./src/script.js",
   mode: "development",
+  performance: {
+    hints: false,
+  },
   devServer: {
     static: "./docs",
   },
