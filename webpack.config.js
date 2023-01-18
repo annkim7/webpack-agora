@@ -1,14 +1,18 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+//css minify
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
   entry: "./src/script.js",
+  devServer: {
+    static: "./docs",
+  },
   output: {
     path: path.resolve(__dirname, "docs"),
-    filename: "[fullhash].bundle.js",
-    clean: true,
+    filename: "[fullhash].bundle.js", //동적 관리
+    clean: true, //디렉터리 정리
   },
   module: {
     rules: [
